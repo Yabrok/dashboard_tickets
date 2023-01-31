@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { Header } from "./components/Header/Header";
+import { Aside } from "./components/pages/Aside";
+import { AllTickets } from "./components/pages/AllTickets";
+import './assets/styles/index.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Aside />
+      <div style={{'paddingLeft': '255px', 'backgroundColor': '#F7F8FC'}}>
+        <div style={{'padding': '30px',}}>
+          <Header />
+          <AllTickets />
+        </div>
+      </div>
+    </>
   );
 }
 

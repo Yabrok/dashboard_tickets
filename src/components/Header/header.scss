@@ -1,0 +1,32 @@
+.site-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.site-header__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
+  color: #252733;
+}
+
+.others {
+  padding-right: 33px;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #DFE0EB;
+}
+
+.login-box {
+  padding-left: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.login__name {
+  margin: 0;
+  margin-right: 14px;
+}
